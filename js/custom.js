@@ -16,10 +16,21 @@ $(window).resize(function() {
 });
 
 
+
+/*  slick image slideer
+*/
+
+angular.module('qp', ['slick']);
+
+
+
+
 /*  add to cart
 */
 
 $('.add-to-order-button').on('click', function() {
 	console.log('add to cart');
 });
+
+
 
