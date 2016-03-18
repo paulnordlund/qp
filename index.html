@@ -1,11 +1,13 @@
 <!doctype html>
-<html ng-app="qp" class="no-js" lang="en">
+<html ng-app="qp" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>QP</title>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
 <!--     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">    
  -->    
     <link rel="stylesheet" href="css/foundation.min.css" />
@@ -26,7 +28,7 @@
         <div class="icon-bar vertical seven-up">
         <a href="partials/home.html" class="active item" role="button" tabindex="0">
           <img src="img/qp.jpg">
-          <label class="iconfonts"></label>
+          <label class="iconfonts">Quality Paulity</label>
         </a>
         <a href="partials/breakfast.html" class="item" role="button" tabindex="0">
          <i class="fi-clock"></i>
@@ -66,43 +68,48 @@
             <h6 class="h6font">click a category to view menu items</h6>
 
 
-        <slick class="slick-slide slick-active" style="width: 100%;">
+      <slick>
+        <div class="slick-slide slick-active" style="width: 100%;">
             <h3 class="h3font">QP</h3>
             <h6 class="h6font">Since 1983</h6>
             <img class="" src="img/bak.jpg" alt=""/> 
-        </slick>
-          <slick class="slick-slide" style="width: 100%;">
-            <h3 class="h3font">QP</h3>
-            <h6 class="h6font">Since 1983</h6>      
+        </div>
+
+        <div class="slick-slide" style="width: 100%;">
+            <h3 class="h3font">BREAKFAST</h3>
+            <h6 class="h6font">to start your day</h6>      
             <img class="" src="img/bre.jpg" alt=""/> 
-        </slick>
-          <slick class="slick-slide" style="width: 100%;">
-            <h3 class="h3font">QP</h3>
-            <h6 class="h6font">Since 1983</h6> 
+        </div>
+
+        <div class="slick-slide" style="width: 100%;">
+            <h3 class="h3font">APPETIZERS</h3>
+            <h6 class="h6font">to start your meal</h6> 
             <img class="" src="img/app.jpg" alt=""/> 
-        </slick>
-          <slick class="slick-slide" style="width: 100%;">
-            <h3 class="h3font">QP</h3>
-            <h6 class="h6font">Since 1983</h6>      
+        </div>
+
+        <div class="slick-slide" style="width: 100%;">
+            <h3 class="h3font">VEGETARIAN</h3>
+            <h6 class="h6font">fresh, healthy, delicious</h6>      
             <img class="" src="img/squ.jpg" alt=""/> 
-        </slick>
-          <slick class="slick-slide" style="width: 100%;">
-            <h3 class="h3font">QP</h3>
-            <h6 class="h6font">Since 1983</h6>      
+        </div>
+
+        <div class="slick-slide" style="width: 100%;">
+            <h3 class="h3font">ENTREES</h3>
+            <h6 class="h6font">a little bit of everything</h6>      
             <img class="" src="img/ent.jpg" alt=""/> 
-        </slick>
-        <slick class="slick-slide" style="width: 100%;">
-            <h3 class="h3font">QP</h3>
-            <h6 class="h6font">Since 1983</h6>      
+        </div>
+
+        <div class="slick-slide" style="width: 100%;">
+            <h3 class="h3font">DRINKS</h3>
+            <h6 class="h6font">to quench any thirst</h6>      
             <img class="" src="img/smo.jpg" alt=""/> 
-        </slick>
+        </div>
+      </slick>
 
         <slick infinite="true" slides-to-show="6" slides-to-scroll="6">
-          ...
         </slick>
 
         <slick dots="true" infinite="false" speed="300" slides-to-show="6" touch-move="false" slides-to-scroll="1">
-          ...
         </slick>
             
 
