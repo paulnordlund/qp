@@ -87,9 +87,11 @@ ITEM HOVER
   left: 0; }
 
 .overlay-fade-in p {
+  padding: 15px;
   letter-spacing: 0.15em;
   color: #f4f4f4;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
   opacity: 0;
   transition: all 0.2s linear; }
 .overlay-fade-in img {
@@ -98,13 +100,6 @@ ITEM HOVER
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.4);
   transition: all 0.4s ease-in-out; }
-.overlay-fade-in h2 {
-  color: #f2f2f2;
-  font-size: 1.4rem;
-  margin-top: 40%;
-  opacity: 0;
-  transition: all 0.2s ease-in-out;
-  background: rgba(0, 0, 0, 0.7); }
 
 .overlay-fade-in .button {
   display: inline-block;
