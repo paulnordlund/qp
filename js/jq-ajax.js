@@ -12,7 +12,7 @@ $('aside a').on('click', function(e) {
     url: url,                                               // Path to file
     timeout: 2000,                                          // Waiting time
     beforeSend: function() {                                // Before Ajax 
-      $content.append('<div id="load">Loading</div>');      // Load message
+      $content.append('<div id="load"><img src="img/ajax-loader.gif"/>Loading</div>');      // Load message
     },
     complete: function() {                                  // Once finished
       $('#load').remove();                                  // Clear message
