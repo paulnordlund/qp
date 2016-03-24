@@ -23,7 +23,7 @@ HOME PAGE
 **************************/
 
 .banner {
-  background-image: url("img/bak.jpg"); 
+  background-image:url("img/bak.jpg"); 
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
