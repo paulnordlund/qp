@@ -20,7 +20,7 @@ $(window).resize(function() {
 /*  slick image slideer
 */
 
-angular.module('qp', ['slick']);
+// angular.module('qp', ['slick']);
 
 
 
