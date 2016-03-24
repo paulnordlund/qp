@@ -6,12 +6,28 @@ GENERAL
   margin-bottom: 15px;
 }
 
+/**************************
+AJAX LOADER
+**************************/
+
 #load {
   font-family: 'Lato', sans-serif;
   font-size: 2em;
   font-weight: 300;  
   text-align: center;
   margin: 100px 0px;
+}
+
+/**************************
+HOME PAGE
+**************************/
+
+.banner {
+  background-image: src="img/bak.jpg"); 
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
 /**************************
@@ -135,6 +151,7 @@ ITEM HOVER
   transition-delay: 0.1s; }
 .overlay-fade-in:hover .button {
   transition-delay: 0.2s; }
+
 
 /**************************
 FOOTER
